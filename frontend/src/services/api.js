@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Create an Axios instance
-const API = axios.create({ baseURL: "http://localhost:5000/api" });
+const API = axios.create({ baseURL: "https://contact-manager-kokk.onrender.com" });
 
 // Add token to headers if available
 API.interceptors.request.use((req) => {
