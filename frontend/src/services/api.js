@@ -1,7 +1,9 @@
 import axios from "axios";
 
 // Create an Axios instance
-const API = axios.create({ baseURL: "https://contact-manager-kokk.onrender.com" });
+const API = axios.create({
+  baseURL: "https://contact-manager-kokk.onrender.com",
+});
 
 // Add token to headers if available
 API.interceptors.request.use((req) => {
@@ -11,3 +13,4 @@ API.interceptors.request.use((req) => {
 });
 
 export default API;
+zzz
