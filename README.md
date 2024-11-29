@@ -36,7 +36,7 @@ To run this project locally, you'll need:
 ### 1. Clone the repository
 
 ```bash
-git clone
+git clone   https://github.com/karansarda121/contact_manager.git
 
 cd frontend
 npm install
